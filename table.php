@@ -58,6 +58,7 @@
 				echo "<td>".$car_list[$i]->color."</td>";
 				echo "<td><a href='?delete=".$car_list[$i]->id."'>X</a></td>";
 				echo "<td><a href='?edit=".$car_list[$i]->id."'>edit</a></td>";
+				echo "<td><a href='edit.php?edit=".$car_list[$i]->id."'>edit.php</a></td>";
 			
 				echo "</tr>";
 			}
